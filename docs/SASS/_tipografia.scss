@@ -1,0 +1,29 @@
+body{
+	font: 1em/1 Arial, Helvetica, sans-serif;
+}
+
+hr{
+	color: #000;
+	clear: both;
+	background: #000;
+	height: 1px;
+	width: 250px;
+}
+img{
+	float: right;
+	border: none
+}
+h2,
+h4{
+	padding:20px 0 0 20px;
+	margin: 0;
+}
+h4{padding: 0 0 10px 0}
+blockquote{margin: 5px 5px 0 15px}
+
+/* Tipografia */
+h1 {font-size: 2em}
+h2 {font-size: 1.8em}
+h3 {font-size: 1.6em}
+h4 {font-size: 1.4em}
+h5 {font-size: 1.2em}

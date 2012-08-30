@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<!-- Uau, você consegue ler isso; pegue-o completo em: http://github.com/ac107592 -->
+	<meta charset="utf-8"/>
+	<meta name="description" content="Não desperdíce o seu voto! Saiba um pouco da história e troque informações sobre os (as) candidatos (as). Quem ganha é você e a democracia. Transparência e informação nas eleições podem mudar o presente e futuro das cidades, estados e do Brasil para melhor."/>
+	<meta name="keywords" content="eleições 2012, voto, voto consciente, urna, urna eletônica, como votar"/>
+
+	<title>Saiba em quem votar nas Eleições de 2012</title>
+	<base href="http://saibaemquemvotar.com.br/"/>
+	<link rel="canonical" href="http://saibaemquemvotar.com.br/"/>
+	<link rel="stylesheet" href="i/estilo.css"/>
+<!--[if lt IE 9]>
+	<link href="i/estilo-ie.css" rel="stylesheet" type="text/css"/>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+
+	<meta property="og:site_name" content="Saiba em quem votar nas Eleições"/>
+	<meta property="og:type" content="cause"/>
+	<meta property="og:title" content="Saiba em quem votar nas Eleições de 2012"/>
+	<meta property="og:url" content="http://saibaemquemvotar.com.br/"/>
+	<meta property="og:image" content="http://saibaemquemvotar.com.br/apple-touch-icon-114x114.png"/>
+	<meta property="og:description" content="Não desperdíce o seu voto! Saiba um pouco da história e troque informações sobre os (as) candidatos (as). Quem ganha é você e a democracia. Transparência e informação nas eleições podem mudar o presente e futuro das cidades, estados e do Brasil para melhor."/>
+	<meta property="fb:admins" content="100000821096599"/>
+	<meta property="fb:admins" content="667433505"/>
+
+	<link rel="author" type="text/plain" href="humans.txt"/>
+<script>var d=document;function carregaJS(c,a){var b=d.createElement("script");b.type="text/javascript";if(b.readyState){b.onreadystatechange=function(){if(b.readyState=="loaded"||b.readyState=="complete"){b.onreadystatechange=null;a()}}}else{b.onload=function(){a()}}b.src=c;d.getElementsByTagName("head")[0].appendChild(b)}function AttachEvent(a,c,b){if(a.addEventListener){a.addEventListener(c,b,false)}else{a.attachEvent("on"+c,b)}}</script>
+</head>
+<body id="inicio">
+<div id="modal"></div>
+<header id="abertura" class="sombra">
+	<span id="orelha"></span>
+
+	<div id="chamada">
+		<h2>Nas eleições do dia 7 de outubro...</h2>
+		<h1>Você já sabe em quem vai votar?</h1>
+		<p>Saiba um pouco da história e troque informações sobre os (as) candidatos (as). Quem ganha é você e a democracia. Transparência e informação nas eleições podem mudar o presente e futuro das cidades, estados e do Brasil para melhor.</p>
+	</div>
+
+	<div id="logo">
+		<p title="De acordo com o relógio do seu computador...">Cole já essa idéia pois as eleições<br>do dia 7 de Outubro começam em:</p>
+
+		<div id="form">
+			<div id="count2"></div>
+
+			<div id="dia">
+				<img src="i/disp.gif" class="fundo"/>
+				<img src="i/line.png" class="linha"/>
+				<div id="dday"></div>
+			</div>
+
+			<div id="hora">
+				<img src="i/disp.gif" class="fundo"/>
+				<img src="i/line.png" class="linha"/>
+				<div id="dhour"></div>
+			</div>
+
+			<div id="minuto">
+				<img src="i/disp.gif" class="fundo"/>
+				<img src="i/line.png" class="linha"/>
+				<div id="dmin"></div>
+			</div>
+
+			<div id="segundo">
+				<img src="i/disp.gif" class="fundo"/>
+				<img src="i/line.png" class="linha"/>
+				<div id="dsec"></div>
+			</div>
+
+			<div id="days">Dias</div>
+			<div id="hours">Horas</div>
+			<div id="minutes">Minutos</div>
+			<div id="seconds">Segundos</div>
+		</div>
+
+		<span></span>
+	</div>
+
+	<div id="mais">
+		<span></span>
+		<p><mark>Conheça</mark> mais os candidatos a prefeito(a) e vereador(a)</p>
+		<p><mark>Analise</mark> com informações que talvez nem saiba</p>
+		<p><mark>Simule</mark> o seu voto direto na urna e imprima sua cola</p>
+
+		<a class="super button blue" id="start" href="javascript:">Comece sua avaliação dos candidatos antes do pleito</a>
+
+		<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FSaibaEmQuemVotar%2F229469237175613&amp;width=290&amp;colorscheme=light&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=66" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</div>
+</header>
+
+
+<section id="busca" class="invisivel">
+	<span></span>
+	<select id="uf">
+		<option value="" selected="selected">Escolha o seu estado abaixo</option>
+		<option value="ac">Acre</option>
+		<option value="al">Alagoas</option>
+		<option value="ap">Amapá</option>
+		<option value="am">Amazonas</option>
+		<option value="ba">Bahia</option>
+		<option value="ce">Ceará</option>
+		<option value="es">Espírito Santo</option>
+		<option value="go">Goiás</option>
+		<option value="ma">Maranhão</option>
+		<option value="mt">Mato Grosso</option>
+		<option value="ms">Mato Grosso do Sul</option>
+		<option value="mg">Minas Gerais</option>
+		<option value="pa">Pará</option>
+		<option value="pb">Paraíba</option>
+		<option value="pr">Paraná</option>
+		<option value="pe">Pernambuco</option>
+		<option value="pi">Piauí</option>
+		<option value="rj">Rio de Janeiro</option>
+		<option value="rn">Rio Grande do Norte</option>
+		<option value="rs">Rio Grande do Sul</option>
+		<option value="ro">Rondônia</option>
+		<option value="rr">Roraima</option>
+		<option value="sc">Santa Catarina</option>
+		<option value="sp">São Paulo</option>
+		<option value="se">Sergipe</option>
+		<option value="to">Tocantins</option>
+	</select>
+
+	<div id="tbCidades" class="sombra oculto">
+		<span></span>
+
+		<table cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<th colspan="3">
+						<input type="text" id="cidade" placeHolder="Procurar pelo município">
+						<a href="javascript:" id="f_sz" class="small button blue" title="Filtrar cidades entre nomes S-Z">S-Z</a>
+						<a href="javascript:" id="f_mr" class="small button blue" title="Filtrar cidades entre nomes M-R">M-R</a>
+						<a href="javascript:" id="f_gl" class="small button blue" title="Filtrar cidades entre nomes G-L">G-L</a>
+						<a href="javascript:" id="f_af" class="small button blue" title="Filtrar cidades entre nomes A-F">A-F</a>
+					</th>
+				</tr>
+			</thead>
+			<tbody id="tbCidadesConteudo"></tbody>
+		</table>
+	</div>
+
+	<ul id="map">
+		<li id="crs"><a href="javascript:" id="rs" title="RS"><img src="i/b.gif"/></a></li>
+		<li id="csc"><a href="javascript:" id="sc" title="SC"><img src="i/b.gif"/></a></li>
+		<li id="cpr"><a href="javascript:" id="pr" title="PR"><img src="i/b.gif"/></a></li>
+		<li id="csp"><a href="javascript:" id="sp" title="SP"><img src="i/b.gif"/></a></li>
+		<li id="cms"><a href="javascript:" id="ms" title="MS"><img src="i/b.gif"/></a></li>
+		<li id="crj"><a href="javascript:" id="rj" title="RJ"><img src="i/b.gif"/></a></li>
+		<li id="ces"><a href="javascript:" id="es" title="ES"><img src="i/b.gif"/></a></li>
+		<li id="cmg"><a href="javascript:" id="mg" title="MG"><img src="i/b.gif"/></a></li>
+		<li id="cgo"><a href="javascript:" id="go" title="GO"><img src="i/b.gif"/></a></li>
+		<li id="cba"><a href="javascript:" id="ba" title="BA"><img src="i/b.gif"/></a></li>
+		<li id="cmt"><a href="javascript:" id="mt" title="MT"><img src="i/b.gif"/></a></li>
+		<li id="cro"><a href="javascript:" id="ro" title="RO"><img src="i/b.gif"/></a></li>
+		<li id="cac"><a href="javascript:" id="ac" title="AC"><img src="i/b.gif"/></a></li>
+		<li id="cam"><a href="javascript:" id="am" title="AM"><img src="i/b.gif"/></a></li>
+		<li id="crr"><a href="javascript:" id="rr" title="RR"><img src="i/b.gif"/></a></li>
+		<li id="cpa"><a href="javascript:" id="pa" title="PA"><img src="i/b.gif"/></a></li>
+		<li id="cap"><a href="javascript:" id="ap" title="AP"><img src="i/b.gif"/></a></li>
+		<li id="cma"><a href="javascript:" id="ma" title="MA"><img src="i/b.gif"/></a></li>
+		<li id="cto"><a href="javascript:" id="to" title="TO"><img src="i/b.gif"/></a></li>
+		<li id="cse"><a href="javascript:" id="se" title="SE"><img src="i/b.gif"/></a></li>
+		<li id="cal"><a href="javascript:" id="al" title="AL"><img src="i/b.gif"/></a></li>
+		<li id="cpe"><a href="javascript:" id="pe" title="PE"><img src="i/b.gif"/></a></li>
+		<li id="cpb"><a href="javascript:" id="pb" title="PB"><img src="i/b.gif"/></a></li>
+		<li id="crn"><a href="javascript:" id="rn" title="RN"><img src="i/b.gif"/></a></li>
+		<li id="cce"><a href="javascript:" id="ce" title="CE"><img src="i/b.gif"/></a></li>
+		<li id="cpi"><a href="javascript:" id="pi" title="PI"><img src="i/b.gif"/></a></li>
+	</ul>
+	<h5><span></span>Dados do TSE (<a href="http://www.tse.jus.br/hotSites/pesquisas-eleitorais/" target="_blank" title="Atualizado em 12 de agosto">fonte</a>)</h5>
+</section>
+
+
+<section id="urna" class="invisivel">
+	<span id="risco"></span>
+
+	<div id="painelajuda">
+		<span id="pa_voltar"></span>
+		<a href="javascript:" id="pnlVoltar" title="Escolher outra cidade para simular a votação e avaliar suas escolhas" class="button brown">Retornar ao mapa do Brasil</a>
+		<a href="javascript:" id="pnlCandidatos" title="Procure os números dos candidatos a prefeito(a) e vereador(a)" class="button pink"></a>
+		<span id="pa_cand"></span>
+	</div>
+
+	<div id="tela"></div>
+
+	<img src="i/painel.jpg" width="274" height="361" border="0" id="teclado" usemap="#painel"/>
+	<map name="painel">
+		<area shape="rect" href="javascript:" id="b1" coords="53,97,99,130"/>
+		<area shape="rect" href="javascript:" id="b2" coords="114,97,158,130"/>
+		<area shape="rect" href="javascript:" id="b3" coords="176,97,220,130"/>
+		<area shape="rect" href="javascript:" id="b4" coords="53,146,97,181"/>
+		<area shape="rect" href="javascript:" id="b5" coords="115,146,159,181"/>
+		<area shape="rect" href="javascript:" id="b6" coords="176,146,221,181"/>
+		<area shape="rect" href="javascript:" id="b7" coords="51,198,98,231"/>
+		<area shape="rect" href="javascript:" id="b8" coords="114,198,158,231"/>
+		<area shape="rect" href="javascript:" id="b9" coords="175,198,220,231"/>
+		<area shape="rect" href="javascript:" id="b0" coords="114,249,159,284"/>
+		<area shape="rect" href="javascript:" id="bb" coords="20,301,85,337"/>
+		<area shape="rect" href="javascript:" id="bc" coords="103,301,171,337"/>
+		<area shape="rect" href="javascript:" id="bconf" coords="186,292,252,337"/>
+	</map>
+
+	<div id="beira"></div>
+	<div id="eira"></div>
+	<div id="speaker"></div>
+
+	<a href="javascript:" id="compartilhar" title="Conte para seus amigos indecisos (e os que jamais votaram) para se familiarizarem com suas escolhas" class="super button blue dir"><small>Gostou? Divulgue então pros seus amigos e ajude-os nas suas escolhas</small><span id="comp_seta"></span><span></span>Compartilhar</a>
+
+	<div id="fim">
+		<span></span>
+		<p><a href="javascript:" id="analise" title="Visualize informações adicionais dos seus candidatos" class="super button green">Quero avaliar os resultados</a></p>
+		<p><a href="javascript:" id="reinicia" title="Reinicie a urna e vote novamente" class="large button red">Reinicie a urna pra eu poder simular o voto novamente!</a></p>
+		<p><a href="javascript:" id="imprima" title="Imprima a lista (com foto) dos candidatos e leve consigo pra urna" class="large button orange">Gostaria de imprimir a minha colinha</a></p>
+	</div>
+
+	<aside id="ajuda"></aside>
+</section>
+
+
+<footer>
+	<h3>Dúvidas ou sugestões</h3>
+	<div>
+		<p>Problemas de votação com a urna virtual? Envie-nos para: <tt>contato@saibaemquemvotar.com.br</tt></p>
+		<p>Queremos suas opiniões para melhorarmos!</p>
+		<p>Recomendamos o uso de navegadores modernos e atualizados.</p>
+		<p><i>Equipe Rocket decolando... copyleft <b>©</b> 2012</i></p>
+	</div>
+
+	<div>
+		<span title="Preparem-se para a encrenca! Encrenca em dobro! Para proteger o mundo da devastação! Para unir as pessoas de nossa nação!"></span>
+		<a class="button medium orange" href="sobre.htm" title="Quem nós somos">Sobre a gente</a>
+		<a target="_blank" class="button medium red" href="http://divulgacand2012.tse.jus.br/divulgacand2012/ResumoCandidaturas.action" title="Conheça a origem dos dados que foram utilizados" class="medium button" target="_blank">Dados do TSE</a>
+		<a target="_blank" class="button medium brown" href="http://youtu.be/CKtz6Hd1YHk#t=5s" title="Veja o vídeo da urna sendo ligada">Vídeo da urna</a>
+		<a class="button small" href="sobre-o-voto-nulo.htm" title="No final das contas, a opção pelo voto nulo acaba se transformando em um ato de passividade mediante ao cenário político vigente. Gostaria de saber mais?">Anular os votos anulam a eleição?</a>
+		<a class="button small blue" href="sobre-o-voto-branco.htm" title="Não é um voto válido e não vai a nenhum candidato. Não há representatividade nenhuma.">Voto em branco vai pra quem?</a>
+	</div>
+</footer>
+
+
+<script>
+carregaJS("i/urna.js",function(){
+	void_main()
+	countdown(2012,10,7,08,00)
+})
+
+var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-34128620-1"]);_gaq.push(["_trackPageview"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})()
+</script>
+</body>
+</html>

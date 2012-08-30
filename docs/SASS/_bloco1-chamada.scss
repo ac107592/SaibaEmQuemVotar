@@ -1,0 +1,200 @@
+
+header {
+	background-image: -moz-linear-gradient(top, $cor_fundo_topo 0%, #BFBFBA 70%, #BFBFBA 80%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(top, $cor_fundo_topo 0%, #BFBFBA 70%, #BFBFBA 80%, #FFFFFF 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom,
+		color-stop(0, $cor_fundo_topo), color-stop(0.7, #BFBFBA), color-stop(0.8, #BFBFBA), color-stop(1, #FFFFFF));
+	background-image: -webkit-linear-gradient(top, $cor_fundo_topo 0%, #BFBFBA 70%, #BFBFBA 80%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, $cor_fundo_topo 0%, #BFBFBA 70%, #BFBFBA 80%, #FFFFFF 100%);
+
+	height: 500px;
+	margin: 0 auto;
+	width: 960px;
+
+	h1,
+	h2 {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		padding: 0;
+	}
+
+		h1 {
+			color: darken($azul, 20%);
+			font-weight: bold
+		}
+
+		h2 { color: #666 }
+
+	p { margin: 0 }
+
+	mark {
+		background: transparent;
+		color: darken($azul, 20%);
+		font-weight: bold;
+		padding: 2px 4px;
+	}
+}
+
+#chamada,
+#logo,
+#mais { position: absolute }
+
+#chamada {
+	margin: 20px 0 0 200px;
+	width: 720px;
+
+	p {
+		line-height: 20px;
+		padding: 0 0 1em 0;
+		font-weight: 300;
+		margin: 10px 0 0 124px
+	}
+
+}
+
+#logo {
+	background: url("sprites.png") 0 -428px no-repeat;
+	margin: 130px 0 0 40px;
+	padding: 250px 0 0 0;
+	width: 250px;
+
+	p {
+		cursor: help;
+		font-size: 14px;
+
+		&:before {
+			content: "*";
+			color: $vermelho;
+			font-weight: bold;
+			position: absolute;
+			margin-left: -10px
+		}
+	}
+
+	span {
+		background-position: -287px -347px;
+		height: 82px;
+		margin: 6px 0 0 286px;
+		width: 82px;
+	}
+}
+
+#mais {
+	margin: 180px 0 0 420px;
+	width: 500px;
+
+	a {
+		clear: both;
+		float: right;
+		margin-top: 30px;
+		overflow: hidden;
+		width: 460px;
+	}
+
+	p { height: 25px }
+	p + p { margin-left: 20px }
+	p + p + p { margin-left: 40px }
+
+	iframe,
+	div {
+		float: right;
+		position: absolute;
+		margin: 150px 0 0 210px;
+		height: 66px;
+		width: 290px
+	}
+
+	span {
+		background-position:-102px -331px;
+		height: 96px;
+		width: 96px;
+		margin: -12px 0 0 -75px
+	}
+
+	div {
+		margin: 220px 0 0 256px;
+		font-size: 14px;
+		a {
+			color: #3C8FC9;
+			font-weight: bold;
+			clear: none;
+			float: none;
+		}
+
+		span {
+			background-position: -320px -304px;
+			height: 20px;
+			width: 38px;
+			margin: -3px 0 0 -44px
+		}
+	}
+}
+
+
+span#orelha {
+	background-position: -200px -345px;
+	height: 82px;
+	width: 80px;
+	float: right;
+	position: inherit
+}
+
+
+/* Contador */
+.fundo {
+	margin-top: 12px;
+	width: 62px;
+	height: 58px;
+}
+
+.linha {
+	margin-top: 40px;
+	width: 62px;
+	height: 2px;
+	z-index: 15;
+}
+
+#form {
+	cursor: progress;
+	margin-left: -15px;
+	width: 250px;
+	height: 80px;
+}
+
+#form img,
+#form div {
+	float: none;
+	position: absolute;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+	color: #000;
+	font-size: 10px;
+	margin: 73px 3px 0 3px;
+	width: 62px;
+	text-align: center;
+}
+
+#hora img,
+#hora div,
+#hours { margin-left: 73px }
+
+#minuto img,
+#minuto div,
+#minutes { margin-left: 145px }
+
+#segundo img,
+#segundo div,
+#seconds { margin-left: 218px }
+
+#form div div {
+	background: #292929;
+	color: #FFF;
+	font: bold 34px "Lucida Console", Monaco, monospace;
+	margin-top: 21px;
+	width: 62px;
+	height: 42px;
+	text-align: center;
+}

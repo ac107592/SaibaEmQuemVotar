@@ -1,0 +1,239 @@
+ul#map {
+	background: url("sprites.png");
+	display: block;
+	width: 296px;
+	height: 294px;
+
+	li {
+		display: block;
+		position: absolute;
+
+		a {
+			display: block;
+			text-decoration: none;
+			position: absolute;
+
+			img {
+				width: inherit;
+				height: inherit
+			}
+		}
+	}
+}
+
+li {
+	&#crs {margin:243px 0 0 125px}
+	&#csc {margin:236px 0 0 148px}
+	&#cpr {margin:209px 0 0 143px}
+	&#csp {margin:190px 0 0 158px; z-index:99}
+	&#cms {margin:169px 0 0 118px}
+	&#crj {margin:201px 0 0 210px; z-index:99}
+	&#ces {margin:181px 0 0 231px; z-index:99}
+	&#cmg {margin:152px 0 0 169px; z-index:98}
+	&#cgo {margin:132px 0 0 154px; z-index:99}
+	&#cba {margin:98px 0 0 197px}
+	&#cmt {margin:98px 0 0 95px}
+	&#cro {margin:100px 0 0 57px; z-index:98}
+	&#cac {margin:99px 0 0 1px}
+	&#cam {margin:24px 0 0 2px}
+	&#crr {margin:1px 0 0 72px}
+	&#cpa {margin:22px 0 0 114px}
+	&#cap {margin:11px 0 0 146px}
+	&#cma {margin:53px 0 0 191px; z-index:99}
+	&#cto {margin:83px 0 0 175px}
+	&#cse {margin:122px 0 0 266px}
+	&#cal {margin:116px 0 0 267px}
+	&#cpe {margin:102px 0 0 245px}
+	&#cpb {margin:96px 0 0 265px}
+	&#crn {margin:85px 0 0 265px}
+	&#cce {margin:68px 0 0 245px}
+	&#cpi {margin:67px 0 0 209px; z-index:97}
+}
+
+a {
+	&#rs {width: 50px; height: 49px}
+	&#sc {width: 35px; height: 24px}
+	&#pr {width: 43px; height: 31px}
+	&#sp {width: 55px; height: 41px}
+	&#ms {width: 51px; height: 52px}
+	&#rj {width: 28px; height: 16px}
+	&#es {width: 18px; height: 24px}
+	&#mg {width: 79px; height: 63px}
+	&#go {width: 53px; height: 55px}
+	&#ba {width: 74px; height: 95px}
+	&#mt {width: 84px; height: 76px}
+	&#ro {width: 49px; height: 44px}
+	&#ac {width: 55px; height: 27px}
+	&#am {width: 130px; height: 91px}
+	&#rr {width: 43px; height: 49px}
+	&#pa {width: 96px; height: 94px}
+	&#ap {width: 38px; height: 41px}
+	&#ma {width: 51px; height: 68px}
+	&#to {width: 34px; height: 62px}
+	&#se {width: 13px; height: 15px}
+	&#al {width: 21px; height: 12px}
+	&#pe {width: 48px; height: 19px}
+	&#pb {width: 29px; height: 16px}
+	&#rn {width: 27px; height: 16px}
+	&#ce {width: 29px; height: 39px}
+	&#pi {width: 41px; height: 59px}
+}
+
+a {
+	&#rs:hover {background: url("uf/rs.gif")}
+	&#sc:hover {background: url("uf/sc.gif")}
+	&#pr:hover {background: url("uf/pr.gif")}
+	&#sp:hover {background: url("uf/sp.gif")}
+	&#ms:hover {background: url("uf/ms.gif")}
+	&#rj:hover {background: url("uf/rj.gif")}
+	&#es:hover {background: url("uf/es.gif")}
+	&#mg:hover {background: url("uf/mg.gif")}
+	&#go:hover {background: url("uf/go.gif")}
+	&#ba:hover {background: url("uf/ba.gif")}
+	&#mt:hover {background: url("uf/mt.gif")}
+	&#ro:hover {background: url("uf/ro.gif")}
+	&#ac:hover {background: url("uf/ac.gif")}
+	&#am:hover {background: url("uf/am.gif")}
+	&#rr:hover {background: url("uf/rr.gif")}
+	&#pa:hover {background: url("uf/pa.gif")}
+	&#ap:hover {background: url("uf/ap.gif")}
+	&#ma:hover {background: url("uf/ma.gif")}
+	&#to:hover {background: url("uf/to.gif")}
+	&#se:hover {background: url("uf/se.gif")}
+	&#al:hover {background: url("uf/al.gif")}
+	&#pe:hover {background: url("uf/pe.gif")}
+	&#pb:hover {background: url("uf/pb.gif")}
+	&#rn:hover {background: url("uf/rn.gif")}
+	&#ce:hover {background: url("uf/ce.gif")}
+	&#pi:hover {background: url("uf/pi.gif")}
+}
+
+$largura_tbCidades: 600px;
+$altura_tbCidades: 420px;
+
+#tbCidades {
+	clear:both
+}
+	.carregando {
+		cursor: progress;
+		margin: 120px 0 0 245px;
+		width: 100px !important
+	}
+
+#busca {
+	height: 500px;
+	width: 960px;
+	margin: 0 auto;
+
+	h4 { float: right }
+
+	span {
+		background-position: -290px -42px;
+		height: 26px;
+		width: 56px;
+		margin: 20px 0 0 -90px
+	}
+
+	select {
+		margin-bottom: 10px;
+		padding: 4px
+	}
+
+	input {
+		background: #FFF url("sprites.png") -290px 4px no-repeat;
+		height: 17px;
+		padding: 2px 2px 2px 30px;
+		width: 230px
+	}
+
+	div {
+		border: 1px solid #963;
+		float: right;
+		height: $altura_tbCidades;
+		width: $largura_tbCidades;
+		overflow: hidden;
+
+		span {
+			background-position: -296px -69px;
+			height: 52px;
+			width: 76px;
+			margin: 56px 0 0 -90px
+		}
+	}
+
+
+		th {
+			background: $cor_marrom;
+			border-left: 1px solid #EB8;
+			border-right: 1px solid #B74;
+			border-top: 1px solid #EB8;
+			font-weight: normal;
+			padding: 4px 3px;
+			text-align: left;
+			width:350px;
+
+			a {
+				float: right;
+				margin: 3px 12px 0 0;
+			}
+
+		}
+
+		#tbCidadesConteudo {
+			display: block;
+			height: ($altura_tbCidades - 40px);
+			overflow: auto;
+			width: 100%
+		}
+
+		td {
+			border-left: none;
+			border-right: 1px solid #CCC;
+			border-top: 1px solid #DDD;
+			padding: 2px 3px 3px 4px;
+			width: $largura_tbCidades / 3;
+
+			&:hover {
+				background: lighten($cor_marrom, 20%);
+				cursor: hand;
+				cursor: pointer;
+			}
+		}
+
+	h5 {
+		background: url("sprites.png") -290px -17px no-repeat;
+		height: 25px;
+		font-size: 1.6em;
+		padding-left: 35px;
+
+		a {
+			text-decoration: underline;
+			margin: 0 5px
+		}
+
+		span {
+			background-position: 0 -296px;
+			height: 30px;
+			width: 266px;
+			margin: 25px 0 0 0
+		}
+	}
+}
+
+.maior {
+	font-size: 24px;
+	width: 95%;
+	th {text-align: center !important}
+	td{
+		padding: 10px !important;
+		width: $largura_tbCidades / 2 !important
+	}
+}
+
+.nda {
+	width: 1px;
+	td{
+		cursor: none;
+		&:hover { background: transparent }
+	}
+}

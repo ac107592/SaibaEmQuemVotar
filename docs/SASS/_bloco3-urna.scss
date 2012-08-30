@@ -1,0 +1,378 @@
+span {
+	&#risco {
+		background-position: -296px -124px;
+		height: 158px;
+		width: 24px;
+		margin: 175px 0 0 865px
+	}
+
+	&#pa_voltar {
+		background-position: -264px -294px;
+		height: 30px;
+		width: 55px;
+		margin: -15px 0 0 -60px
+	}
+
+	&#pa_cand {
+		background-position: -320px -304px;
+		height: 20px;
+		width: 38px;
+		margin: 5px 0 0 5px
+	}
+
+	&#xis {
+		background-position: -332px -124px;
+		height: 25px;
+		width: 37px;
+		margin: -15px 0 0 -50px
+	}
+}
+
+#nav-urna {
+	height: 25px;
+	margin: 0 auto;
+	top: -36px;
+	position: relative;
+	width: 800px;
+}
+
+img {
+	&#foto{margin: 10px 10px 0 0}
+	&#teclado{margin-right: 10px}
+}
+
+#urna {
+	background:#f2e7ed;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdfdf), to(#f0e5eb));
+	background:-webkit-linear-gradient(top, #dfdfdf, #f0e5eb);
+	background:-moz-linear-gradient(top, #dfdfdf, #f0e5eb);
+	background:-o-linear-gradient(top, #dfdfdf, #f0e5eb);
+
+	color: #333;
+	margin: 40px auto 0 auto;
+	height: 400px;
+	width: 850px;
+
+	-moz-box-shadow: 3px 3px 4px #666;
+	-webkit-box-shadow: 3px 3px 4px #666;
+	box-shadow: 3px 3px 4px #666;
+}
+
+#tela {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background:-webkit-gradient(radial, center center, 0, center center, 460, from(#bbb), to(#e4e4e4));
+	background:-webkit-radial-gradient(circle, #bbb, #e4e4e4);
+	background:-moz-radial-gradient(circle, #bbb, #e4e4e4);
+
+	float: left;
+	border-top: 1px solid #AAA;
+	border-left: 1px solid #AAA;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	margin: 15px 0 0 50px;
+	overflow: hidden;
+	height: 310px;
+	width: 450px;
+
+	table {
+		margin-left: 20px;
+		width: 320px
+	}
+
+	td,
+	th { text-align: left }
+
+	h4,
+	th { font-weight: bold }
+
+	small {
+		font-weight: normal;
+		font-size: 12px
+	}
+
+	span {
+		background: transparent;
+		border: 1px solid #666666;
+		display: inline-block;
+		font-size: 28px;
+		font-weight: bold;
+		margin-right: 5px;
+		padding: 5px;
+		position: relative;
+		text-align: center;
+		vertical-align: middle;
+		width: 26px;
+	}
+}
+
+span#sel{border: 1px solid #C3C3C3}
+
+#beira,
+#eira {
+	float: right;
+	position: relative;
+	margin: 0 auto;
+	width: 850px;
+}
+
+	#beira {
+		background: url("beira.png");
+		height: 40px;
+		top: -386px;
+	}
+
+	#eira {
+		background: url("eira.png");
+		height: 13px;
+		top: -39px
+	}
+
+#numero {
+	margin-top: 10px;
+
+	td{
+		width: 83px;
+		vertical-align:middle
+	}
+}
+
+#foto { max-width: 100px }
+
+#nome td,
+#partido_label,
+#coligacao td {width: 83px}
+
+#rodape {
+	border-top: 2px solid #666;
+	clear: both;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+#nome_data {
+	display: block;
+	height: 38px;
+	overflow: hidden
+}
+
+#feedback {
+	clear: both;
+	padding: 0;
+	text-align: center
+}
+
+#voto_legenda { float: right }
+
+	#ajuda,
+	#foto,
+	#nome,
+	#feedback,
+	#partido,
+	#coligacao,
+	#rodape,
+	#speaker,
+	#fim{ visibility: hidden }
+
+.fim {
+	display: table;
+
+	p {
+		text-align: center;
+		font-size: 120px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+#atalhos {
+	clear: both;
+	font-size: 14px;
+	float: left;
+	width: 380px;
+
+	p {
+		font-size: 18px;
+		margin: 0 0 10px 0;
+	}
+	ul {
+		list-style: none;
+		margin-left: 25px;
+	}
+}
+
+#ajuda {
+	background: #e4e4e4;
+	color:#424242;
+	font-size: 14px;
+	margin-left: -350px;
+	top: 60px;
+	left: 50%;
+	width: 700px;
+	height: 400px;
+	position: fixed;
+	padding: 10px;
+	z-index: 1000;
+
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+
+	-moz-box-shadow: 10px 10px 20px #000;
+	-webkit-box-shadow: 10px 10px 20px #000;
+	box-shadow: 10px 10px 20px #000;
+
+	h4 {
+		margin:5px 0;
+		padding:0;
+	}
+
+	h2 {
+		color: darken($azul, 20%);
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 36px;
+    	margin-bottom: 20px;
+    }
+
+	h3 {
+		font-size: 16px;
+		font-weight: bold;
+		margin: 0 100px 10px 40px;
+	}
+
+	ul {
+		font-size: 16px;
+		margin: 20px 100px 0 80px
+	}
+
+	h1 a,
+	h3 a { float: right }
+
+	h4 a {
+		color:#424242;
+		display: block;
+		font-size: 13px;
+		font-weight: normal;
+		text-shadow: 2px 2px 2px #aeaeae;
+		text-decoration:none;
+		margin:0;
+		padding:5px 10px;
+		background: #8f8f8f;
+		background: -moz-linear-gradient( top, #cecece, #8f8f8f);
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+
+		&:hover {
+			color:#FFF;
+			background: #2288dd;
+			background: -moz-linear-gradient( top, #6bb2ff, #2288dd);
+			background: -webkit-gradient(linear, left top, left bottom, from(#6bb2ff), to(#2288dd));
+		}
+
+		span {
+			background: transparent;
+			position: relative;
+			padding: 0 4px;
+			text-shadow: none;
+			font-weight: bold
+		}
+	}
+
+	p {
+		padding:0 10px;
+		margin:0;
+		height: 0;
+		overflow: hidden;
+		-moz-transition: height 0.5s ease-in;
+		-webkit-transition: height 0.5s ease-in;
+		-o-transition: height 0.5s ease-in;
+		transition: height 0.5s ease-in;
+
+		span {
+			background: transparent;
+			position: relative;
+			padding: 2px;
+			display: inline-block;
+
+			&:nth-child(even) {
+				float: right;
+				width: 300px
+			}
+		}
+
+		&.sel{
+			overflow: auto;
+			height:210px;
+		}
+	}
+}
+
+.scroll {
+	overflow-y: scroll;
+}
+
+#redes{
+	height:56px;
+	margin:0 auto;
+	width:200px;
+
+	a{
+		background:url("sprites.png") -250px -438px;
+		position:absolute;
+		text-indent:-9999px;
+		height:48px;
+		width:48px
+	}
+}
+	#facebook:hover{border-bottom:2px solid #255396}
+	#twitter{
+		background-position:-306px -438px !important;
+		margin-left:75px;
+
+		&:hover{border-bottom:2px solid #1BA1F2}
+	}
+	#orkut{
+		background-position:-250px -492px !important;
+		margin-left:150px;
+
+		&:hover{border-bottom:2px solid #B81196}
+	}
+
+
+#ajuda_pref span {
+	font-size: 16px;
+	margin-bottom: 10px
+}
+
+#compartilhar {
+
+	span {
+		background-position: 0 -296px;
+		clear: both;
+		display: block;
+		height: 30px;
+		width: 266px;
+		margin: 55px 0 0 0;
+
+		&#comp_seta {
+			background-position: -290px -42px;
+			height: 26px;
+			width: 56px;
+			margin: 16px 0 0 -80px
+		}
+	}
+}
+
+#fim {
+	margin-top: 384px;
+	position: absolute;
+
+	span {
+		background-position: -296px -69px;
+		height: 52px;
+		width: 76px;
+		margin: 372px 0 0 -590px
+	}
+}

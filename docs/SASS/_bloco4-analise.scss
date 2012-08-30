@@ -1,0 +1,29 @@
+#analisevoto {
+	margin: 25px auto 0;
+	min-height: 400px;
+	width: 960px;
+
+	li { list-style: none }
+
+	img {
+		float: left;
+		margin-right: 20px;
+	}
+
+	p{ clear: both }
+}
+
+#vereador,
+#prefeito {
+	float: right;
+	width: 450px;
+}
+
+#vereador {
+	a{margin-top:10px}
+	margin-right: 20px
+}
+
+#graph_ver img{display: none}
+
+#graph_pref img{display: none}

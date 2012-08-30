@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<title>JSChart</title>
+
+<script type="text/javascript" src="jscharts.js"></script>
+
+</head>
+<body>
+
+<div id="graph">Carregando gráfico...</div>
+<style>
+	img{display: none}
+</style>
+<script type="text/javascript">
+	var myData = new Array([1996, 22], [1997, 36], [1998, 37], [1999, 45], [2000, 50], [2001, 55], [2002, 61], [2003, 61], [2004, 62], [2005, 66], [2006, 73])
+	var myChart = new JSChart('graph', 'line')
+	myChart.setDataArray(myData)
+	myChart.setTitle('Desenvolvimento patrimonial')
+	myChart.setTitleColor('#8E8E8E')
+	myChart.setTitleFontSize(11)
+	myChart.setAxisNameX('')
+	myChart.setAxisNameY('')
+	myChart.setAxisColor('#C4C4C4')
+	myChart.setAxisValuesColor('#000')
+	myChart.setAxisPaddingLeft(50)
+	myChart.setAxisPaddingRight(10)
+	myChart.setAxisPaddingTop(10)
+	myChart.setAxisPaddingBottom(20)
+	myChart.setAxisValuesNumberX(6)
+	myChart.setGraphExtend(true)
+	myChart.setGridColor('#c2c2c2')
+	myChart.setLineWidth(4)
+	myChart.setLineColor('#9F0505')
+	myChart.setSize(300, 200)
+	myChart.draw()
+</script>
+
+</body>
+</html>

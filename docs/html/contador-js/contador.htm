@@ -1,0 +1,60 @@
+<html>
+<head>
+<link rel="stylesheet" href="../i/estilo.css"/>
+</head>
+
+<body>
+<div id="form">
+	<div id="count2"></div>
+
+	<div id="dia">
+		<img src="disp.gif" class="fundo"/>
+		<img src="line.png" class="linha"/>
+		<div id="dday"></div>
+	</div>
+
+	<div id="hora">
+		<img src="disp.gif" class="fundo"/>
+		<img src="line.png" class="linha"/>
+		<div id="dhour"></div>
+	</div>
+
+	<div id="minuto">
+		<img src="disp.gif" class="fundo"/>
+		<img src="line.png" class="linha"/>
+		<div id="dmin"></div>
+	</div>
+
+	<div id="segundo">
+		<img src="disp.gif" class="fundo"/>
+		<img src="line.png" class="linha"/>
+		<div id="dsec"></div>
+	</div>
+
+	<div id="days">Dias</div>
+	<div id="hours">Horas</div>
+	<div id="minutes">Minutos</div>
+	<div id="seconds">Segundos</div>
+
+</div>
+
+<script>
+
+/*
+Count down until any date script-
+By JavaScript Kit (www.javascriptkit.com)
+
+Modified by Robert M. Kuhnhenn, D.O.
+on 5/30/2006 to count down to a specific date AND time,
+and on 1/10/2010 to include time zone offset.
+
+...e otimizado (JS+Math+CSS) por mim XD
+*/
+function countdown(p,l,s,w,n){theyear=p;themonth=l;theday=s;thehour=w;theminute=n;var r=new Date(),u=r.getYear(),x=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");if(u<1000){u+=1900}var b=r.getMonth(),f=r.getDate(),c=r.getHours(),h=r.getMinutes(),o=r.getSeconds(),e=x[b]+" "+f+", "+u+" "+c+":"+h+":"+o,g=Date.parse(e)+(-3000*3600),k=(x[l-1]+" "+s+", "+p+" "+w+":"+n),a=Date.parse(k)-(r.getTimezoneOffset()*(60000)),t=a-g,j=Math.floor(t/(3600000*24)*1),y=Math.floor((t%(3600000*24))/3600000),i=Math.floor(((t%(3600000*24))%(3600000))/60000),q=Math.floor((((t%(3600000*24))%(3600000))%(60000))/1000),v=document;if(j<=0&&y<=0&&i<=0&&q<=0){v.getElementById("count2").innerHTML="Vote consciente!";v.getElementById("count2").style.display="inline";v.getElementById("count2").style.width="390px";v.getElementById("dday").style.display="none";v.getElementById("dhour").style.display="none";v.getElementById("dmin").style.display="none";v.getElementById("dsec").style.display="none";v.getElementById("days").style.display="none";v.getElementById("hours").style.display="none";v.getElementById("minutes").style.display="none";v.getElementById("seconds").style.display="none";return}else{v.getElementById("count2").style.display="none";v.getElementById("dday").innerHTML=j;v.getElementById("dhour").innerHTML=y;v.getElementById("dmin").innerHTML=i;v.getElementById("dsec").innerHTML=q;setTimeout(function(){countdown(theyear,themonth,theday,thehour,theminute)},1000)}}
+
+
+countdown(2012,10,7,08,00)
+
+</script>
+</body>
+</html>

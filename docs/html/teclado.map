@@ -1,0 +1,22 @@
+<img src="Sem título" width="270" height="358" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Régis Araújo  -->
+<area shape="rect" coords="53,97,98,130" href="1#" />
+<area shape="rect" coords="114,97,158,130" href="#2" />
+<area shape="rect" coords="174,97,217,130" href="#3" />
+<area shape="rect" coords="53,147,97,180" href="#4" />
+<area shape="rect" coords="114,146,158,180" href="5#" />
+<area shape="rect" coords="174,146,218,180" href="6#" />
+<area shape="rect" coords="52,196,97,229" href="#7" />
+<area shape="rect" coords="112,196,156,229" href="8#" />
+<area shape="rect" coords="173,196,218,229" href="9#" />
+<area shape="rect" coords="112,246,156,280" href="#0" />
+<area shape="rect" coords="20,296,85,331" href="#branco" />
+<area shape="rect" coords="101,297,167,332" href="#corrige" />
+<area shape="rect" coords="182,286,248,331" href="#confirma" />
+</map>

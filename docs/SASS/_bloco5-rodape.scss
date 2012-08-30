@@ -1,0 +1,46 @@
+footer {
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 60%, $cor_fundo_topo 100%);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 60%, $cor_fundo_topo 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(0.6, #DDDDDD), color-stop(1, $cor_fundo_topo));
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 60%, $cor_fundo_topo 100%);
+	background-image: linear-gradient(to top, #FFFFFF 0%, #DDDDDD 60%, $cor_fundo_topo 100%);
+
+	border-top: 2px solid $azul;
+	clear: both;
+	padding: 20px;
+	padding-top: 10px;
+	margin: 200px auto 10px auto;
+	height: 150px;
+	width: 920px;
+
+	h3 { margin-bottom: 20px }
+
+	div {
+		float: left;
+		width: 450px;
+	}
+
+		p { margin-top: 0 }
+
+		a {
+			clear: both;
+			float: left;
+			margin-bottom: 5px;
+			margin-left: 100px;
+			text-align: right;
+		}
+
+		i {
+			font-size: 12px;
+			font-style: italic
+		}
+
+	span {
+		cursor: nw-resize;
+		background-position: -250px -584px;
+		height: 94px;
+		width: 120px;
+		margin: 100px 0 0 800px
+	}
+
+}
