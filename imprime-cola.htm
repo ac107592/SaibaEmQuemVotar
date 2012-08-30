@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+
+	<title>Cola dos números dos seus candidatos</title>
+	<base href="http://saibaemquemvotar.com.br/"/>
+	<link rel="stylesheet" href="l/estilo.css"/>
+	<script src="l/urna.min.js"></script>
+<!--[if lt IE 9]>
+	<link href="l/estilo-ie.css" rel="stylesheet" type="text/css"/>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+
+	<link rel="author" type="text/plain" href="humans.txt"/>
+	<script>var dd=document;function wrt(id,str){dd.getElementById(id).innerHTML=str}function carregaJS(c,a){var b=dd.createElement("script");b.type="text/javascript";if(b.readyState){b.onreadystatechange=function(){if(b.readyState=="loaded"||b.readyState=="complete"){b.onreadystatechange=null;a()}}}else{b.onload=function(){a()}}b.src=c;dd.getElementsByTagName("head")[0].appendChild(b)}function AttachEvent(a,c,b){if(a.addEventListener){a.addEventListener(c,b,false)}else{a.attachEvent("on"+c,b)}}</script>
+</head>
+<body style="background: #FFFFFF">
+<script>
+function analisa_votos(){
+	var num_ver=window.opener.num_ver,num_pref=window.opener.num_pref,
+	glUf=window.opener.glUf,glCidadeId=window.opener.glCidadeId
+	var prefeito=window.opener.prf[num_pref]
+	var vereador=window.opener.ver[num_ver]
+	var legenda=window.opener.prt[num_ver]
+
+	if(num_ver=="")
+		out=msg_branco
+	else if(!(legenda === undefined))
+		out=msg_legenda
+	else if(vereador === undefined)
+		out=msg_nulo
+	else
+	{ // preenche vereador
+		out="<h3>Vereador: "+num_ver+"</h3>"
+		out+="<h3>"+vereador[0]+"</h3>"
+		out+="<img src='"+("fotos/" + glUf + "/" + glCidadeId + "/" + vereador[1] + ".jpg")+"' width='100'/>"
+	}
+	wrt("vereador", out)
+
+	if(num_pref=="")
+		out=msg_branco
+	else if(prefeito === undefined)
+		out=msg_nulo
+	else
+	{ // preenche prefeito
+		out="<h3>Prefeito: "+num_pref+"</h3>"
+		out+="<h3>"+prefeito[0]+"</h3>"
+		out+="<img src='"+("fotos/" + glUf + "/" + glCidadeId + "/" + prefeito[1] + ".jpg")+"' width='100'/>"
+	}
+	wrt("prefeito", out)
+	window.print()
+	window.close()
+}
+</script>
+
+<section id="analisevoto">
+	<div id="prefeito">Carregando...</div>
+	<div id="vereador">Carregando...</div>
+</section>
+
+<script>
+analisa_votos()
+
+var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-34128620-1"]);_gaq.push(["_trackPageview"]);(function(){var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})()
+</script>
+
+</body>
+</html>

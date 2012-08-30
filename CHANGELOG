@@ -1,0 +1,71 @@
+Saiba como votar 0.5 (publicado 28-08-2012)
+	- Visualização dos doadores de campanha dos candidatos
+
+
+Saiba como votar 0.4 (publicado 27-08-2012)
+
+	[Usabilidade]
+		- Maior área para visualização da análise do candidato
+
+	[Análise]
+		- 3 primeiras negativas criminais do candidato
+		- Situação do CNPJ da candidatura
+		- Relatório do TSE em PDF
+
+	[Bugs]
+		- Revisado para o IE8 e Opera
+
+
+Saiba como votar 0.3 (publicado 22-08-2012)
+
+	[Conteúdo / social]
+		- evolução patrimonial (gráfica e descritiva)
+		- removido o balão da equipe rocket
+		- mensagem de alerta pros usuários antigos do IE
+		- url curta: http://is.gd/saibavotar
+		- fanpage personalizada
+		- visibilidade ao link pro twitter
+
+	[Usabilidade]
+		- uso do teclado para digitar na urna
+		- mosaico com a foto de todos os candidatos a prefeitos de cada cidade + link tri + marca d'agua
+		- 14 maiores cidades do Brasil pra clique rápido no mapa da busca
+			>> http://pt.wikipedia.org/wiki/Anexo:Lista_de_munic%C3%ADpios_do_Brasil_acima_de_cem_mil_habitantes
+		- voltar da página da urna para a página inicial
+
+	[Otimização]
+		- painel do teclado da urna
+			- serrilhado suavizado
+			- alto-contraste
+		- imagens baixadas do TSE (pra carga + rápida da foto do candidato no nosso servidor)
+		- otimização das imagens baixadas pra visualização adequada na urna
+
+	[Bugs]
+		- testado e verificado no firefox, chrome e opera
+		- regras e ajustes para o IE
+		- cálculos de signos e idades revisados
+
+
+
+Saiba como votar 0.2 (publicado 17-08-2012)
+
+	[Usabilidade]
+		- Impressão: colinha dos candidatos
+		- Avaliação: abrir esta janela ao final de cada simulação?
+		- Urna: sempre move a página pro topo quando aperta os botões ou faz uma busca
+
+	[Social]
+		- Facebook: criado a fanpage
+		- Português: ajustes na capa
+		- Social: comentários nas páginas ¿ sobre ?
+		- URL curta: http://vo.to/como
+
+	[Hospedagem]
+		- Sitemap: google webmaster tools
+		- Página 404: http://saibaemquemvotar.com.br/qq-bobagem-digitada-aqui.htm
+
+
+
+Saiba como votar 0.1 (publicado 16-08-2012)
+
+	Segue o release beta do site (versão Münchausen "by proxy"); não foi totalmente testado pra família IE...

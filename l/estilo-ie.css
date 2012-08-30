@@ -1,0 +1,44 @@
+/**  q nojo */
+tbody{
+	display: block
+}
+#abertura{
+	background: #c7ddff url("fundo-ie.png");
+}
+#foto{
+	width: expression(this.width > 100 ? 100: true);
+}
+#ajuda h2 a:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff6bb2ff, endColorstr=#ff2288dd);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff6bb2ff, endColorstr=#ff2288dd)";
+}
+#modal{
+	filter: alpha(opacity=70);
+}
+header {
+	background-image: -ms-linear-gradient(top, $cor_fundo_topo 0%, #BFBFBA 70%, #BFBFBA 80%, #FFFFFF 100%);
+}
+#urna{
+	background:-ms-linear-gradient(top, #dfdfdf, #f0e5eb);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666000')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666000');
+}
+#tela {
+	background:-ms-radial-gradient(circle, #bbb, #e4e4e4);
+}
+#ajuda{
+	behavior: url(ie-css3.htc);
+}
+#ajuda h4 a{
+	background: -webkit-gradient(linear, left top, left bottom, from(#cecece), to(#8f8f8f));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcecece, endColorstr=#ff8f8f8f);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcecece, endColorstr=#f8f8f8f)";
+}
+footer {
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 60%, $cor_fundo_topo 100%);
+
+}
+footer span {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	display: inline-block
+}
