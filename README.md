@@ -10,7 +10,7 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 	- Simule o seu voto direto na urna e imprima sua cola
 
 
-/* SITE */
+# SITE
 
 	Atualização: 25 / 8 / 12
 	Versão:      Münchhausen "by proxy" (0.4)
@@ -32,7 +32,7 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 		-- Ferreira Gullar em comentário sobre Dom Quixote de la Mancha
 
 
-/* EQUIPE ROCKET */
+# EQUIPE ROCKET
 
 	Jornalista:  Jousi
 	Lacaio:      Régis
@@ -41,7 +41,7 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 
 
 
-/* FERRAMENTAS */
+# FERRAMENTAS
 
 	InkSpace:    SVG pra posicionar imagens
 	Pinta:       Slice das imagens
@@ -59,7 +59,7 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 
 
 
-/* SCRIPTS AUXILIARES */
+# SCRIPTS AUXILIARES
 
 	http://meyerweb.com/eric/tools/css/reset/
 	http://www.alsacreations.fr/dewplayer-en.html
@@ -69,7 +69,7 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 
 
 
-/* FERRAMENTAS AUXILIARES */
+# FERRAMENTAS AUXILIARES
 
 	http://www.willpeavy.com/minifier/
 	http://jscompress.com/
@@ -77,7 +77,7 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 
 
 
-/* MÉTODOS */
+# MÉTODOS
 
 	Graceful degradation
 	Websafefonts
@@ -86,19 +86,19 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 
 
 
-/* ILUSTRAÇÕES SVG */
+# ILUSTRAÇÕES SVG
 
 	http://openclipart.org/
 
 
 
-/* REDIRECIONAMENTO 404 */
+# REDIRECIONAMENTO 404
 
 	http://gulp.com.br/404.html
 
 
 
-/* COMENTÁRIO SOBRE O JAVASCRIPT */
+# COMENTÁRIO SOBRE O JAVASCRIPT
 
 	JQuery, Prototype e Mootools são excelentes frameworks, muito populares pois facilitam a vida de quem desenvolve e possuem uma comunidade empolgante de pessoas com soluções criativas reutilizáveis.
 
@@ -110,13 +110,13 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 
 
 
-/* INSPIRADO NA MÁQUINA DE ANTICÍTERA */
+# INSPIRADO NA MÁQUINA DE ANTICÍTERA
 
 	http://pt.wikipedia.org/wiki/Máquina_de_Anticítera
 
 
 
-/* NOSSO LEMA */
+# NOSSO LEMA
 
 		Preparem-se para a encrenca!
 		Encrenca em dobro!
@@ -134,7 +134,7 @@ Saiba um pouco da história e troque informações sobre os (as) candidatos (as)
 
 
 
-/* AGRADECIMENTOS */
+# AGRADECIMENTOS
 
 	(Primeiro) ao Café Melitta
 
